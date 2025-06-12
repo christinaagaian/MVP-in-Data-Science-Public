@@ -1,7 +1,3 @@
-import streamlit as st
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 @st.cache_data
 def process_inflation(df):
     df = df[['Год', 'Всего']].dropna()
